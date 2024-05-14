@@ -1,10 +1,10 @@
-﻿namespace MenuDisplays.Models
+﻿using MenuItems.DataAccess.EF.Repositories;
+namespace MenuDisplays.Models
 {
     public class ItemsViewModel
     {
-        public int ItemID { get; set; }
-        public string ItemName { get; set; }
-        public string ItemDescription { get; set; }
+        private ItemsRepository _repo;
 
+       
     }
 }
